@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">SmartJobHelper</string>
+    <string name="accessibility_service_label">SmartJobHelper Assistant</string>
+    <string name="accessibility_service_description">Reads incoming gig/ride-hailing offer popups to evaluate your configured fare, distance, and per-km criteria, and clicks the accept button only when your rules are met.</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">Rules</string>
+    <string name="nav_sandbox">Sandbox</string>
+    <string name="nav_history">History</string>
+
+    <!-- Status & Overlay -->
+    <string name="status_active">ACTIVE</string>
+    <string name="status_paused">PAUSED</string>
+    <string name="overlay_channel_name">Floating Control Overlay</string>
+    <string name="overlay_channel_description">Keeps the SmartJobHelper floating status pill running over delivery and ride-hailing apps.</string>
+    <string name="overlay_notification_title">SmartJobHelper Overlay Active</string>
+    <string name="overlay_notification_paused">Assistant is PAUSED. Tap floating pill to activate.</string>
+    <string name="overlay_notification_running">Monitoring offers with your active rules.</string>
+    <string name="overlay_action_toggle">Toggle</string>
+    <string name="overlay_action_stop">Stop</string>
+
+    <!-- Permissions -->
+    <string name="perm_wizard_title">Setup Permissions</string>
+    <string name="perm_accessibility_title">Accessibility Service</string>
+    <string name="perm_accessibility_desc">Reads ride/order popups and taps Accept when rules match</string>
+    <string name="perm_overlay_title">Display Over Other Apps</string>
+    <string name="perm_overlay_desc">Shows the draggable Active/Paused floating control pill</string>
+    <string name="perm_battery_title">Ignore Battery Optimizations</string>
+    <string name="perm_battery_desc">Prevents OEMs from killing the assistant in the background</string>
+    <string name="perm_status_granted">Granted</string>
+    <string name="perm_status_missing">Missing</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_presets_title">Quick App Presets</string>
+    <string name="dashboard_target_package_label">Target Package Name</string>
+    <string name="dashboard_target_package_hint">Leave blank to monitor all apps</string>
+    <string name="dashboard_keywords_label">Action Button Keywords</string>
+    <string name="dashboard_keywords_hint">Comma-separated, case-insensitive</string>
+    <string name="dashboard_rules_title">Profitability &amp; Distance Rules</string>
+    <string name="dashboard_min_fare_label">Minimum Fare (≥ ₹)</string>
+    <string name="dashboard_max_distance_label">Max Pickup / Trip Distance (≤ km)</string>
+    <string name="dashboard_min_per_km_label">Minimum Per-KM Rate (≥ ₹/km)</string>
+    <string name="dashboard_safe_mode_title">Safe Mode (Skip Undetected)</string>
+    <string name="dashboard_safe_mode_desc">Skip clicking if fare or distance text is not detected on screen</string>
+    <string name="dashboard_keyword_fallback_desc">Click based on matching button keyword even if numbers are missing</string>
+    <string name="dashboard_speed_title">Click Speed &amp; Safety Controls</string>
+    <string name="dashboard_reaction_delay">Reaction Delay</string>
+    <string name="dashboard_cooldown_timer">Cooldown / Debounce</string>
+
+    <!-- Sandbox -->
+    <string name="sandbox_title">Simulation Sandbox</string>
+    <string name="sandbox_subtitle">Test your exact fare, distance &amp; keyword rules safely offline</string>
+    <string name="sandbox_custom_title">Custom Ride Offer Builder</string>
+
+    <!-- History -->
+    <string name="history_title">Job History</string>
+    <string name="history_empty_title">No Jobs Evaluated Yet</string>
+    <string name="history_empty_subtitle">Activate the assistant or spawn a mock ride in Sandbox to see real-time parsed fares, distances, and rule decisions here.</string>
+    <string name="history_clear_action">Clear Log</string>
+    <string name="history_search_hint">Search app, keyword, rule or fare...</string>
+</resources>

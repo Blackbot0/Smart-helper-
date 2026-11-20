@@ -1,0 +1,6 @@
+{
+  "name": "SmartJobHelper",
+  "description": "Smart rule-based screen assistant for gig workers and delivery/ride-hailing drivers with real-time Accessibility fare/distance parsing, floating overlay controls, interactive sandbox testing, and job history logs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
